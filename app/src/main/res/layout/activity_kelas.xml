@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_kelas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/app_name"
+            app:titleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/kelasViewPager">
+        <com.google.android.material.tabs.TabLayout
+
+        android:id="@+id/tab_kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Widget.MaterialComponents.TabLayout"
+        >
+
+        <com.google.android.material.tabs.TabItem
+        android:id="@+id/tab_kelas_7"
+        style="@style/tabItem"
+        android:text="@string/kelas_7"
+        />
+
+        <com.google.android.material.tabs.TabItem
+        android:id="@+id/tab_kelas_8"
+        style="@style/tabItem"
+        android:text="@string/kelas_8" />
+
+        <com.google.android.material.tabs.TabItem
+        android:id="@+id/tab_kelas_9"
+        style="@style/tabItem"
+        android:text="@string/kelas_9" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

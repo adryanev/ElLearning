@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="casual"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo_tut_wuri"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/logo_tut_wuri_handayani"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName"
+        app:srcCompat="@drawable/logo_tut_wuri_handayani" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonMulai"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="32dp"
+        android:theme="@style/AppTheme"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/mulai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_tut_wuri"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonHelp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:theme="@style/AppTheme"
+        android:text="@string/help"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMulai"
+        app:layout_constraintStart_toStartOf="@+id/buttonMulai"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMulai" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonExit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:theme="@style/AppTheme"
+        android:text="@string/exit"
+        app:layout_constraintEnd_toEndOf="@+id/buttonHelp"
+        app:layout_constraintStart_toStartOf="@+id/buttonHelp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHelp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

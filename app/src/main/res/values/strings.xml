@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">El-Learning</string>
+    <string name="mulai">Mulai</string>
+    <string name="logo_tut_wuri_handayani">Logo Tut Wuri Handayani</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kelas_7">Kelas 7</string>
+    <string name="kelas_8">Kelas 8</string>
+    <string name="kelas_9">Kelas 9</string>
+    <string name="title_activity_semester">SemesterActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="semester_1">Semester 1</string>
+    <string name="semester_2">Semester 2</string>
+    <string name="lanjut_ke_latihan">Lanjut ke Latihan?</string>
+</resources>
