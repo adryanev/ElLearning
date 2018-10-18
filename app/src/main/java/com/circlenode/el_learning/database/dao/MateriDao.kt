@@ -13,6 +13,6 @@ interface MateriDao {
     fun getMateri(kategori : String, kelas: Int, semester : String, pertemuan : String) : List<Materi>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insertMateri(kelas: Int, semester: Int, kategori: String, pertemuan: String, isiMateri: String)
+    fun insertMateri(kelas: Int, semester: Int, pertemuan: String, kategori: String, fileReference: String)
 
 }

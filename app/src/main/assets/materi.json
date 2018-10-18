@@ -1,5 +1,959 @@
 [
   {
-
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p1_kr.pdf"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s1_p1_ks.pdf"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k7_s1_p2_kl.pdf"
+  },
+  {
+    "kelas": 7,
+    "semester": 1,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k7_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s1_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k7_s1_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k7_s1_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s1_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k7_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s1_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k7_s1_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k7_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k7_s1_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s1_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k7_s1_p10_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "writing",
+    "fileReference" : "k7_s1_p10_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p1_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s2_p1_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k7_s2_p2_kl.pdf"
+  },
+  {
+    "idMateri": "24",
+    "kelas": 7,
+    "semester": 2,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k7_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s2_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k7_s2_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k7_s2_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s2_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k7_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s2_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k7_s2_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k7_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k7_s2_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k7_s2_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k7_s2_p10_kl.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 2,
+    "pertemuan" : 10,
+    "kategori" : "writing",
+    "fileReference" : "k7_s2_p10_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p1_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s1_p1_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k8_s1_p2_kl.pdf"
+  },
+  {
+    "idMateri": "44",
+    "kelas": 8,
+    "semester": 1,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k8_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 7,
+    "semester" : 8,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s1_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k8_s1_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k8_s1_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s1_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k8_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s1_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k8_s1_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k8_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s1_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k8_s1_p10_kl.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "writing",
+    "fileReference" : "k8_s1_p10_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p1_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s2_p1_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k8_s2_p2_kl.pdf"
+  },
+  {
+    "idMateri": "64",
+    "kelas": 8,
+    "semester": 2,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k8_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s2_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k8_s2_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k8_s2_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s2_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k8_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s2_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k8_s2_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k8_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k8_s2_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k8_s2_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 8,
+    "semester" : 2,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k8_s2_p10_kl.pdf"
+  },
+  {
+    "idMateri": "80",
+    "kelas": 8,
+    "semester": 2,
+    "pertemuan": 10,
+    "kategori": "writing",
+    "fileReference": "k8_s2_p10_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k8_s1_p1_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s1_p1_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k9_s1_p2_kl.pdf"
+  },
+  {
+    "idMateri": "84",
+    "kelas": 9,
+    "semester": 1,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k9_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k9_s1_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s1_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k9_s1_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k9_s1_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k9_s1_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s1_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k9_s1_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k9_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k9_s1_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s1_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k9_s1_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k9_s1_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k9_s1_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s1_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k9_s1_p10_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 1,
+    "pertemuan" : 10,
+    "kategori" : "writing",
+    "fileReference" : "k9_s1_p10_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p1_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s2_p1_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "fileReference" : "k9_s2_p2_kl.pdf"
+  },
+  {
+    "idMateri": "104",
+    "kelas": 9,
+    "semester": 2,
+    "pertemuan": 2,
+    "kategori": "writing",
+    "fileReference": "k9_s1_p2_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p3_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 3,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s2_p3_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "listening",
+    "fileReference" : "k9_s2_p4_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 4,
+    "kategori" : "writing",
+    "fileReference" : "k9_s2_p4_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p5_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 5,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s2_p5_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p6_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 6,
+    "kategori" : "writing",
+    "fileReference" : "k9_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p7_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 7,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s2_p7_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "listening",
+    "fileReference" : "k9_s2_p8_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 8,
+    "kategori" : "writing",
+    "fileReference" : "k9_s2_p6_kw.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "reading",
+    "fileReference" : "k9_s2_p9_kr.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 9,
+    "kategori" : "speaking",
+    "fileReference" : "k9_s2_p9_ks.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 10,
+    "kategori" : "listening",
+    "fileReference" : "k9_s2_p10_kl.pdf"
+  },
+  {
+    
+    "kelas" : 9,
+    "semester" : 2,
+    "pertemuan" : 10,
+    "kategori" : "writing",
+    "fileReference" : "k9_s2_p10_kw.pdf"
   }
+
 ]

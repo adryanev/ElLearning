@@ -13,12 +13,12 @@ data class Soal(
         var semester:Int,
         var pertemuan: Int,
         var kategori: String,
+        var teks: String?,
         var pertanyaan: String,
         var jawabanA :String,
         var jawabanB: String,
         var jawabanC: String,
         var jawabanD: String,
         var jawabanBenar: String,
-        var gambar : String? = null,
-        var audio : String? = null
+        var audio : String?
 )

@@ -1,7 +1,143 @@
 [
   {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "teks" : null,
+    "pertanyaan" : "",
+    "jawabanA" : "",
+    "jawabanB" : "",
+    "jawabanC" : "",
+    "jawabanD" : "",
+    "jawabanBenar" : "",
+    "audio" : null
 
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "teks" : "Read the following text and answer !\n    Whales are sea-living mammals. They therefore breathe air but cannot survive or land. Some species are very large indeed and the blue whale, which can exceed 30 meter length, is the largest animal which lives on earth. Superficially, the whale looks rather like a fish, but there are important difference in its external structure; its tail consists of a pair of broad, flat horizontal paddles (the tail of a fish is vertical) and it has a single nostril on top of its breadth, broad head. The skin is smooth and shiny and beneath it lies a layer of flat (blubber). This is up to 30 meter in thickness and serves to conserve heat and body fluids.",
+    "pertanyaan" : "What is the text about ?",
+    "jawabanA" : "sea-living mammals",
+    "jawabanB" : "the description of mammals",
+    "jawabanC" : "the difference between whales and fish",
+    "jawabanD" : "Whales",
+    "jawabanBenar" : "D",
+    "audio" : null
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "The length of a whale is ........................",
+    "jawabanA" : "is generally more than 30 meter",
+    "jawabanB" : "may be more than 30 meter",
+    "jawabanC" : "is less than 30 meter",
+    "jawabanD" : "ranges from 30 meter to more than 30 meter",
+    "jawabanBenar" : "B"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "Sentence 1 .........................................",
+    "jawabanA" : "tells an orientation",
+    "jawabanB" : "poses a thesis",
+    "jawabanC" : "shows an abstract",
+    "jawabanD" : "gives a general classification",
+    "jawabanBenar" : "D"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "What type of text is used by the writer ?",
+    "jawabanA" : "Narrative",
+    "jawabanB" : "Report",
+    "jawabanC" : "Report ",
+    "jawabanD" : "News items",
+    "jawabanBenar" : "B"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "To tell the factual information, the writer uses ....................",
+    "jawabanA" : "simple present tense",
+    "jawabanB" : "direct speech",
+    "jawabanC" : "reported speech",
+    "jawabanD" : "simple past tense",
+    "jawabanBenar" : "A"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "teks" : "Read the following text and answer !\n The police thought that two burglars started the robbery at 151 Pattimura street on Sunday afternoon. The burglars broke into the students’ room while they were going to a football game. They never thought that while they were away, burglars would break into their boarding house.",
+    "pertanyaan" : "The communicative purpose of this text is ....................",
+    "jawabanA" : "to retell events for the purpose of informing",
+    "jawabanB" : "to present perspective points about an issue",
+    "jawabanC" : "to describe the way they are",
+    "jawabanD" : "to acknowledge readers about informative events",
+    "jawabanBenar" : "A"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "The text is in form of a/an .............................",
+    "jawabanA" : "Description",
+    "jawabanB" : "Report",
+    "jawabanC" : "Anecdote",
+    "jawabanD" : "Recount",
+    "jawabanBenar" : "B"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "Where did the robbery take place ?",
+    "jawabanA" : "at 151 Pattimura street",
+    "jawabanB" : "at 151 Gajahmada street",
+    "jawabanC" : "at 161 Pattimura street",
+    "jawabanD" : "at 212 Sisingamangaraja street",
+    "jawabanBenar" : "D"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "When did the robbery happen ?",
+    "jawabanA" : "Sunday morning",
+    "jawabanB" : "Sunday afternoon",
+    "jawabanC" : "Saturday morning ",
+    "jawabanD" : "Saturday afternoon",
+    "jawabanBenar" : "B"
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "reading",
+    "pertanyaan" : "The lexico grammatical features are mostly written in ................",
+    "jawabanA" : "Passive voice",
+    "jawabanB" : "Direct speech",
+    "jawabanC" : "Reported speech",
+    "jawabanD" : "Simple past tense",
+    "jawabanBenar" : "B"
   }
+
 ]
 
 

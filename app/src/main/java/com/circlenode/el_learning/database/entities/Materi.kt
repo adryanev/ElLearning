@@ -12,5 +12,5 @@ data class Materi(
         var kelas: Int,
         var semester: Int,
         var kategori: String,
-        var pertemuan: String,
-        var isiMateri: String)
+        var pertemuan: Int,
+        var fileReference: String)

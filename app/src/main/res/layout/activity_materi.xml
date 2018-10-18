@@ -42,23 +42,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <FrameLayout
-                android:layout_margin="8dp"
-                android:id="@+id/framePdf"
+            <com.github.barteksc.pdfviewer.PDFView
+                android:id="@+id/pdfView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintStart_toStartOf="parent"/>
 
-            </FrameLayout>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 style="@style/Widget.AppCompat.Button.Colored"
-                app:layout_constraintTop_toBottomOf="@+id/framePdf"
+                app:layout_constraintTop_toBottomOf="@+id/pdfView"
                 android:text="@string/lanjut_ke_latihan"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

@@ -21,9 +21,8 @@ interface SoalDao {
                    jawabanC: String,
                    jawabanD : String,
                    jawabanBenar : String,
-                   gambar : String?,
                    audio : String?)
 
-    @Query("SELECT * FROM soal where kelas = :kelas and semester = :semester and pertemuan = :pertemuan and kategori = :kategori ORDER BY id")
+    @Query("SELECT * FROM soal where kelas = :kelas and semester = :semester and pertemuan = :pertemuan and kategori = :kategori LIMIT 10")
     fun getSoal(kelas: Int, semester : Int, pertemuan : Int, kategori : String) : List<Soal>
 }
