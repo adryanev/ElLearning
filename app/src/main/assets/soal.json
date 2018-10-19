@@ -4,21 +4,6 @@
     "semester" : 1,
     "pertemuan" : 1,
     "kategori" : "reading",
-    "teks" : null,
-    "pertanyaan" : "",
-    "jawabanA" : "",
-    "jawabanB" : "",
-    "jawabanC" : "",
-    "jawabanD" : "",
-    "jawabanBenar" : "",
-    "audio" : null
-
-  },
-  {
-    "kelas" : 7,
-    "semester" : 1,
-    "pertemuan" : 1,
-    "kategori" : "reading",
     "teks" : "Read the following text and answer !\n    Whales are sea-living mammals. They therefore breathe air but cannot survive or land. Some species are very large indeed and the blue whale, which can exceed 30 meter length, is the largest animal which lives on earth. Superficially, the whale looks rather like a fish, but there are important difference in its external structure; its tail consists of a pair of broad, flat horizontal paddles (the tail of a fish is vertical) and it has a single nostril on top of its breadth, broad head. The skin is smooth and shiny and beneath it lies a layer of flat (blubber). This is up to 30 meter in thickness and serves to conserve heat and body fluids.",
     "pertanyaan" : "What is the text about ?",
     "jawabanA" : "sea-living mammals",
@@ -136,7 +121,338 @@
     "jawabanC" : "Reported speech",
     "jawabanD" : "Simple past tense",
     "jawabanBenar" : "B"
-  }
+  },
+
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : "Choose either a, b, c, or d for the correct answer. Questions 1–3 are based on the dialogue. \n Yunus is a new neighbour. Yunus meets Farid in the street. \n  Farid : Hello, I’m Farid. \n   Yunus : Hello, I’m Yunus. \n    Farid : You are a new neighbour, right? \n    Yunus : Yes, I am. I just moved from Lampung. \n Farid : Well, nice to meet you, Yunus. \n  Yunus : Nice to meet you, too.",
+    "pertanyaan" : "Yunus is ..................",
+    "jawabanA" : "a new teacher",
+    "jawabanB" : "a new student",
+    "jawabanC" : "a new lecturer",
+    "jawabanD" : "a new neighbour",
+    "jawabanBenar" : "D",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "",
+    "jawabanA" : "",
+    "jawabanB" : "",
+    "jawabanC" : "",
+    "jawabanD" : "",
+    "jawabanBenar" : "",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Who is moved from Lampung ..................",
+    "jawabanA" : "Yunus",
+    "jawabanB" : "Farid",
+    "jawabanC" : "Student",
+    "jawabanD" : "Teacher",
+    "jawabanBenar" : "A",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Where are they meet ?",
+    "jawabanA" : "In the Park",
+    "jawabanB" : "In the Street",
+    "jawabanC" : "In the Mall",
+    "jawabanD" : "In the Market",
+    "jawabanBenar" : "B",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Sinta\t: Good afternoon, sir?\n Mr. Budi\t: …………………….., Sinta.",
+    "jawabanA" : "Good afternoon",
+    "jawabanB" : "Nice to meet you too",
+    "jawabanC" : "I’m fine",
+    "jawabanD" : "How do you do",
+    "jawabanBenar" : "A",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Dina : What is your name?\n  Vina : …………………………….",
+    "jawabanA" : "I live at Melati street",
+    "jawabanB" : "I’m seventeen years old",
+    "jawabanC" : "My name is Vina",
+    "jawabanD" : "I ‘m fine. Thank you",
+    "jawabanBenar" : "C",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Alex	: How do you do?\n Boy 	: ………………………….",
+    "jawabanA" : "How do you do",
+    "jawabanB" : "I’m fine. Thank you",
+    "jawabanC" : "I am reading a novel",
+    "jawabanD" : "My name is Boy",
+    "jawabanBenar" : "A",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Reza : I will go to the bed now.\n    Faris : Ok. …………………….",
+    "jawabanA" : "Good afternoon",
+    "jawabanB" : "Good night",
+    "jawabanC" : "Good morning",
+    "jawabanD" : "Good evening",
+    "jawabanBenar" : "B",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Sarah	: Good morning, Rara?\n    Rara 	: ………………….., Sarah.",
+    "jawabanA" : "Good morning",
+    "jawabanB" : "Good afternoon",
+    "jawabanC" : "Good morning",
+    "jawabanD" : "Good night",
+    "jawabanBenar" : "A",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Rio	: …………………………….?\nAlex	: My name is Rio.",
+    "jawabanA" : "Where do you live?",
+    "jawabanB" : "What is your name?",
+    "jawabanC" : "What are you doing?",
+    "jawabanD" : "Where do you come from?",
+    "jawabanBenar" : "B",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 1,
+    "kategori" : "speaking",
+    "teks" : null,
+    "pertanyaan" : "Farah: Nice to meet you, Reihan.\n Reihan	: ………………….., Farah.",
+    "jawabanA" : "Nice to meet you too",
+    "jawabanB" : "I’m fine, thank you.",
+    "jawabanC" : "Good bye",
+    "jawabanD" : "See you later",
+    "jawabanBenar" : "A",
+    "audio" : null
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : "Listen and answer question 1-4\n    A : Damn Scott. You got big.\n    B : Yeah, I’ve been working out a lot.\n    A : How long have you been lifting weights?\n    B : For a year and a half.\n    A : Yeah. Last time I saw you, it was like 2 years ago.\n    B : Has it been that long?\n    A : How often do you go to the gym?\n    B : I usually go every other day for about 3 hours.\n    A : That’s a lot.\n    B : Yeah, I used to work out for an hour a day 4 times a week, and I saw no results. This is what you have to do to get noticeable results. \n    A : I don’t think I have the discipline for that. \n B : Just, think of it as a hobby. Then it’s actually fun.",
+    "pertanyaan" : "How would you describe Scott ?",
+    "jawabanA" : "Very tall and skinny",
+    "jawabanB" : "Slender with broad shoulders",
+    "jawabanC" : "Big and muscular",
+    "jawabanD" : "Short and fat",
+    "jawabanBenar" : "C",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "How long has it been since these two last saw each other ?",
+    "jawabanA" : "6 months ago",
+    "jawabanB" : "10 months ago",
+    "jawabanC" : "A year and a half ago",
+    "jawabanD" : "Two years ago",
+    "jawabanBenar" : "A",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "How often does Scott go to the gym ?",
+    "jawabanA" : "Never	",
+    "jawabanB" : "Once a month",
+    "jawabanC" : "Every day for an hour",
+    "jawabanD" : "Every other day for 3 hours",
+    "jawabanBenar" : "D",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "Why does Scott work out so much ?",
+    "jawabanA" : "To get noticeable results",
+    "jawabanB" : "Because he will be bored",
+    "jawabanC" : "To enter a competition",
+    "jawabanD" : "To train for a marathon",
+    "jawabanBenar" : "A",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : "Listen and answer question 5-8\n    A : The weather is terrible.\n    B : Yeah. It’s been raining a lot these days.\n    A : I have been watching a lot of videos at home because of the constant rain.\n    B : Have you heard when it’s supposed to get better ?\n    A : I saw the weather report, and it’s going to rain for the next eight days.\n    B : That sucks so much. What are we going to do ?\n    A : I’m getting pretty bored. We should do something despite the rain.\n    B : I’m with you. What do you have in mind ?\n    A : I haven’t been to the mall in a long time. Let’s go there.\n    B : That sounds good. They have a movie theatre there, so if we get bored, we can watch a movie.\n    A : Great. I’ll stop by your place now.\n    B : Ok. Don’t forget to bring your umbrella. The rain can start up again anytime.",
+    "pertanyaan" : "What topic are they talking about ?",
+    "jawabanA" : "Weather and rain	",
+    "jawabanB" : "Shopping at the mall",
+    "jawabanC" : "Comedy movies at the theater",
+    "jawabanD" : "Sports and activities",
+    "jawabanBenar" : "A",
+    "audio" : "k7_s1_p2610_kl_n5-8.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "If they get bored at the mall, what will they do ?",
+    "jawabanA" : "Watch a movie",
+    "jawabanB" : "Buy a game to play",
+    "jawabanC" : "Go home and watch TV",
+    "jawabanD" : "Go to the gym",
+    "jawabanBenar" : "A",
+    "audio" : "k7_s1_p2610_kl_n5-8.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "What word is used to describe the weather ?",
+    "jawabanA" : "Amazing	",
+    "jawabanB" : "Depressing",
+    "jawabanC" : "Great",
+    "jawabanD" : "Terrible",
+    "jawabanBenar" : "D",
+    "audio" : "k7_s1_p2610_kl_n5-8.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "What was mentioned in the weather report ?",
+    "jawabanA" : "It will stop raining in three days",
+    "jawabanB" : "It will stop raining in eight days",
+    "jawabanC" : "It will stop raining on friday",
+    "jawabanD" : "It will be sunny over the weekend",
+    "jawabanBenar" : "B",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : "Listen and answer question 9-10\n    A : Did you ever take history 231?\n    B : Yeah. Last semester.\n    A : Who was the professor?\n    B : it was professor Johnson.\n    A : I have him this semester. What do you think about him?\n    B : he’s a terrible instructor and demands a lot, but fortunately, he’s an easy grader.\n    A : What did you end up getting ?\n    B : I got an A-. sounds good, but none of my test scores were that high, so I don’t know how I got a decent grade.\n    A : That’s probably because he grades on a curve.\n    B : Are you enjoying the class so far ?\n    A : I hate it and I was about to withdrawal. But after hearing yout experience, I think I will tough it out.\n    B : Yes. Definitely stay in the class. You will get a better grade then your test scores. He does that deliberately to make all the students study a lot.\n    A : Thanks for letting me know. I feel relieved now. ",
+    "pertanyaan" : "What university class are they talking about ?",
+    "jawabanA" : "Biology",
+    "jawabanB" : "Chemistry	",
+    "jawabanC" : "History",
+    "jawabanD" : "Geography",
+    "jawabanBenar" : "C",
+    "audio" : "k7_s1_p2610_kl_n9-10.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "How did one student get an A- grade but all his scores were lower than that ?",
+    "jawabanA" : "The professor liked the student",
+    "jawabanB" : "The professor graded on a curve",
+    "jawabanC" : "The student did extra assignments",
+    "jawabanD" : "The student talked to the professor ",
+    "jawabanBenar" : "B",
+    "audio" : "k7_s1_p2610_kl_n9-10.wav"
+
+  },
+  {
+    "kelas" : 7,
+    "semester" : 1,
+    "pertemuan" : 2,
+    "kategori" : "listening",
+    "teks" : null,
+    "pertanyaan" : "",
+    "jawabanA" : "",
+    "jawabanB" : "",
+    "jawabanC" : "",
+    "jawabanD" : "",
+    "jawabanBenar" : "",
+    "audio" : "k7_s1_p2610_kl_n1-4.wav"
+
+  },
 
 ]
 
