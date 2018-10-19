@@ -26,6 +26,7 @@
         <activity
             android:name=".activities.PertemuanActivity"
             android:parentActivityName=".activities.KelasActivity" />
+        <activity android:name=".activities.LatihanActivity" />
     </application>
 
 </manifest>
