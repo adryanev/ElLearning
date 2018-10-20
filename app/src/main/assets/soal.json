@@ -3871,7 +3871,7 @@
     "jawabanC" : "It will stop raining on friday",
     "jawabanD" : "It will be sunny over the weekend",
     "jawabanBenar" : "B",
-    "audio" : "k7_s2_p48_kl_n1-4.wav"
+    "audio" : "k7_s2_p48_kl_n5-8.wav"
 
   },
   {
@@ -12100,7 +12100,7 @@
       "jawabanC" : "Following directions.",
       "jawabanD" : "Asking for directions to the woman.",
       "jawabanBenar" : "D",
-      "audio" : "k9_s1_p2610_kl_n1-4.wav"
+      "audio" : "k9_s1_p2610_kl_n1.mp3"
     },
     {
       "kelas" : 9,
@@ -12114,7 +12114,7 @@
       "jawabanC" : "In the evening.",
       "jawabanD" : "At noon.",
       "jawabanBenar" : "A",
-      "audio" : "k9_s1_p2610_kl_n1-4.wav"
+      "audio" : "k9_s1_p2610_kl_n2.mp3"
     },
     {
       "kelas" : 9,
@@ -12128,7 +12128,7 @@
       "jawabanC" : "Expressing satisfaction",
       "jawabanD" : "Showing happiness.",
       "jawabanBenar" : "",
-      "audio" : "k9_s1_p2610_kl_n1-4.wav"
+      "audio" : "k9_s1_p2610_kl_n3.mp3"
     },
     {
       "kelas" : 9,
@@ -12142,7 +12142,7 @@
       "jawabanC" : "Getting a quick call.",
       "jawabanD" : "Giving a mobile phone",
       "jawabanBenar" : "A",
-      "audio" : "k9_s1_p2610_kl_n1-4.wav"
+      "audio" : "k9_s1_p2610_kl_n4.mp3"
     },
     {
       "kelas" : 9,
@@ -12156,7 +12156,7 @@
       "jawabanC" : "I like the way you treat me.",
       "jawabanD" : "Sure, it’s so wonderful.",
       "jawabanBenar" : "D",
-      "audio" : "k9_s1_p2610_kl_n5-8.wav"
+      "audio" : "k9_s1_p2610_kl_n5.mp3"
     },
     {
       "kelas" : 9,
@@ -12170,7 +12170,7 @@
       "jawabanC" : "I’m proud of you.",
       "jawabanD" : "I’m sorry. I’ll try to get a new one for you",
       "jawabanBenar" : "D",
-      "audio" : "k9_s1_p2610_kl_n5-8.wav"
+      "audio" : "k9_s1_p2610_kl_n6.mp3"
     }
   ,    {
     "kelas" : 9,
@@ -12184,7 +12184,7 @@
     "jawabanC" : "Thank you. That’s very nice of you.",
     "jawabanD" : "It’s a plastic box.",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n7.mp3"
   }
   ,    {
     "kelas" : 9,
@@ -12198,7 +12198,7 @@
     "jawabanC" : "Teacher",
     "jawabanD" : "Chef",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n8.mp3"
   },
     {
       "kelas" : 9,
@@ -12212,7 +12212,7 @@
       "jawabanC" : "kitchen stove",
       "jawabanD" : "weighter",
       "jawabanBenar" : "B",
-      "audio" : "k9_s1_p2610_kl_n9-10.wav"
+      "audio" : "k9_s1_p2610_kl_n9.mp3"
     },
     {
       "kelas" : 9,
@@ -12226,7 +12226,7 @@
       "jawabanC" : "Lord of the Rings",
       "jawabanD" : "The Last Samurai ",
       "jawabanBenar" : "C",
-      "audio" : "k9_s1_p2610_kl_n9-10.wav"
+      "audio" : "k9_s1_p2610_kl_n10.wav"
     },
   {
     "kelas" : 9,
@@ -13121,7 +13121,7 @@
     "jawabanC" : "Following directions.",
     "jawabanD" : "Asking for directions to the woman.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n1.mp3"
   },
   {
     "kelas" : 9,
@@ -13135,7 +13135,7 @@
     "jawabanC" : "In the evening.",
     "jawabanD" : "At noon.",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n2.mp3"
   },
   {
     "kelas" : 9,
@@ -13149,7 +13149,7 @@
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
     "jawabanBenar" : "",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n3.mp3"
   },
   {
     "kelas" : 9,
@@ -13163,7 +13163,7 @@
     "jawabanC" : "Getting a quick call.",
     "jawabanD" : "Giving a mobile phone",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n4.mp3"
   },
   {
     "kelas" : 9,
@@ -13177,7 +13177,7 @@
     "jawabanC" : "I like the way you treat me.",
     "jawabanD" : "Sure, it’s so wonderful.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n5.mp3"
   },
   {
     "kelas" : 9,
@@ -13191,7 +13191,7 @@
     "jawabanC" : "I’m proud of you.",
     "jawabanD" : "I’m sorry. I’ll try to get a new one for you",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n6.mp3"
   }
 ,    {
   "kelas" : 9,
@@ -13205,7 +13205,7 @@
   "jawabanC" : "Thank you. That’s very nice of you.",
   "jawabanD" : "It’s a plastic box.",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s1_p2610_kl_n7.mp3"
 }
 ,    {
   "kelas" : 9,
@@ -13219,7 +13219,7 @@
   "jawabanC" : "Teacher",
   "jawabanD" : "Chef",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s1_p2610_kl_n8.mp3"
 },
   {
     "kelas" : 9,
@@ -13233,7 +13233,7 @@
     "jawabanC" : "kitchen stove",
     "jawabanD" : "weighter",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s1_p2610_kl_n9.mp3"
   },
   {
     "kelas" : 9,
@@ -13247,7 +13247,7 @@
     "jawabanC" : "Lord of the Rings",
     "jawabanD" : "The Last Samurai ",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s1_p2610_kl_n10.wav"
   },
   {
     "kelas" : 9,
@@ -14141,7 +14141,7 @@
     "jawabanC" : "Following directions.",
     "jawabanD" : "Asking for directions to the woman.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n1.mp3"
   },
   {
     "kelas" : 9,
@@ -14155,7 +14155,7 @@
     "jawabanC" : "In the evening.",
     "jawabanD" : "At noon.",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n2.mp3"
   },
   {
     "kelas" : 9,
@@ -14169,7 +14169,7 @@
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
     "jawabanBenar" : "",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n3.mp3"
   },
   {
     "kelas" : 9,
@@ -14183,7 +14183,7 @@
     "jawabanC" : "Getting a quick call.",
     "jawabanD" : "Giving a mobile phone",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s1_p2610_kl_n4.mp3"
   },
   {
     "kelas" : 9,
@@ -14197,7 +14197,7 @@
     "jawabanC" : "I like the way you treat me.",
     "jawabanD" : "Sure, it’s so wonderful.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n5.mp3"
   },
   {
     "kelas" : 9,
@@ -14211,7 +14211,7 @@
     "jawabanC" : "I’m proud of you.",
     "jawabanD" : "I’m sorry. I’ll try to get a new one for you",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s1_p2610_kl_n6.mp3"
   }
 ,    {
   "kelas" : 9,
@@ -14225,7 +14225,7 @@
   "jawabanC" : "Thank you. That’s very nice of you.",
   "jawabanD" : "It’s a plastic box.",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s1_p2610_kl_n7.mp3"
 }
 ,    {
   "kelas" : 9,
@@ -14239,7 +14239,7 @@
   "jawabanC" : "Teacher",
   "jawabanD" : "Chef",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s1_p2610_kl_n8.mp3"
 },
   {
     "kelas" : 9,
@@ -14253,7 +14253,7 @@
     "jawabanC" : "kitchen stove",
     "jawabanD" : "weighter",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s1_p2610_kl_n9.mp3"
   },
   {
     "kelas" : 9,
@@ -14267,7 +14267,7 @@
     "jawabanC" : "Lord of the Rings",
     "jawabanD" : "The Last Samurai ",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s1_p2610_kl_10.wav"
   },
   {
     "kelas" : 9,
@@ -14595,7 +14595,7 @@
     "jawabanC" : "Sunday",
     "jawabanD" : "Wednesday",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -14610,7 +14610,7 @@
     "jawabanC" : "Play pool",
     "jawabanD" : "Eat lunch",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -14625,7 +14625,7 @@
     "jawabanC" : "In front of Tower Records",
     "jawabanD" : "In front of the subway entrance",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -14640,7 +14640,7 @@
     "jawabanC" : "Suspense and horror",
     "jawabanD" : "Western and horror",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -14655,7 +14655,7 @@
     "jawabanC" : "Western",
     "jawabanD" : "Action",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -14670,7 +14670,7 @@
     "jawabanC" : "Stupid and childish",
     "jawabanD" : "Predictable and obvious",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -14684,8 +14684,8 @@
     "jawabanB" : "Funny",
     "jawabanC" : "Scary",
     "jawabanD" : "Suspenseful",
-    "jawabanBenar" : "",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "jawabanBenar" : "A",
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -14700,7 +14700,7 @@
     "jawabanC" : "Last man standing",
     "jawabanD" : "Legally Blonde",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
 
   },
   {
@@ -14715,7 +14715,7 @@
     "jawabanC" : "He needs to watch it with his girlfriend",
     "jawabanD" : "He doesn’t like horror movies",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
 
   },
   {
@@ -15162,7 +15162,7 @@
     "jawabanC" : "Following directions.",
     "jawabanD" : "Asking for directions to the woman.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s2_p48_kl_n1.mp3"
   },
   {
     "kelas" : 9,
@@ -15176,7 +15176,7 @@
     "jawabanC" : "In the evening.",
     "jawabanD" : "At noon.",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s2_p48_kl_n2.mp3"
   },
   {
     "kelas" : 9,
@@ -15190,7 +15190,7 @@
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
     "jawabanBenar" : "",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s2_p48_kl_n3.mp3"
   },
   {
     "kelas" : 9,
@@ -15204,7 +15204,7 @@
     "jawabanC" : "Getting a quick call.",
     "jawabanD" : "Giving a mobile phone",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k9_s2_p48_kl_n4.mp3"
   },
   {
     "kelas" : 9,
@@ -15218,7 +15218,7 @@
     "jawabanC" : "I like the way you treat me.",
     "jawabanD" : "Sure, it’s so wonderful.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s2_p48_kl_n5.mp3"
   },
   {
     "kelas" : 9,
@@ -15232,7 +15232,7 @@
     "jawabanC" : "I’m proud of you.",
     "jawabanD" : "I’m sorry. I’ll try to get a new one for you",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k9_s2_p48_kl_n6.mp3"
   }
 ,    {
   "kelas" : 9,
@@ -15246,7 +15246,7 @@
   "jawabanC" : "Thank you. That’s very nice of you.",
   "jawabanD" : "It’s a plastic box.",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s2_p48_kl_n7.mp3"
 }
 ,    {
   "kelas" : 9,
@@ -15260,7 +15260,7 @@
   "jawabanC" : "Teacher",
   "jawabanD" : "Chef",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k9_s2_p48_kl_n8.mp3"
 },
   {
     "kelas" : 9,
@@ -15274,7 +15274,7 @@
     "jawabanC" : "kitchen stove",
     "jawabanD" : "weighter",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s2_p48_kl_n9.mp3"
   },
   {
     "kelas" : 9,
@@ -15288,7 +15288,7 @@
     "jawabanC" : "Lord of the Rings",
     "jawabanD" : "The Last Samurai ",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k9_s2_p48_kl_n10.wav"
   },
   {
     "kelas" : 9,
@@ -15601,7 +15601,7 @@
     "jawabanC" : "Sunday",
     "jawabanD" : "Wednesday",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -15616,7 +15616,7 @@
     "jawabanC" : "Sunday",
     "jawabanD" : "Wednesday",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -15631,7 +15631,7 @@
     "jawabanC" : "Play pool",
     "jawabanD" : "Eat lunch",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -15646,7 +15646,7 @@
     "jawabanC" : "In front of Tower Records",
     "jawabanD" : "In front of the subway entrance",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -15661,7 +15661,7 @@
     "jawabanC" : "Suspense and horror",
     "jawabanD" : "Western and horror",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -15676,7 +15676,7 @@
     "jawabanC" : "Western",
     "jawabanD" : "Action",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -15691,7 +15691,7 @@
     "jawabanC" : "Stupid and childish",
     "jawabanD" : "Predictable and obvious",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -15705,8 +15705,8 @@
     "jawabanB" : "Funny",
     "jawabanC" : "Scary",
     "jawabanD" : "Suspenseful",
-    "jawabanBenar" : "",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "jawabanBenar" : "A",
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -15721,7 +15721,7 @@
     "jawabanC" : "Last man standing",
     "jawabanD" : "Legally Blonde",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
 
   },
   {
@@ -15736,8 +15736,7 @@
     "jawabanC" : "He needs to watch it with his girlfriend",
     "jawabanD" : "He doesn’t like horror movies",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
-
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
   },
   {
     "kelas" : 9,
@@ -16182,7 +16181,7 @@
     "jawabanC" : "Following directions.",
     "jawabanD" : "Asking for directions to the woman.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k8_s2_p48_kl_n1.mp3"
   },
   {
     "kelas" : 9,
@@ -16196,7 +16195,7 @@
     "jawabanC" : "In the evening.",
     "jawabanD" : "At noon.",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k8_s2_p48_kl_n2.mp3"
   },
   {
     "kelas" : 9,
@@ -16210,7 +16209,7 @@
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
     "jawabanBenar" : "",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k8_s2_p48_kl_n3.mp3"
   },
   {
     "kelas" : 9,
@@ -16224,7 +16223,7 @@
     "jawabanC" : "Getting a quick call.",
     "jawabanD" : "Giving a mobile phone",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p2610_kl_n1-4.wav"
+    "audio" : "k8_s2_p48_kl_n4.mp3"
   },
   {
     "kelas" : 9,
@@ -16238,7 +16237,7 @@
     "jawabanC" : "I like the way you treat me.",
     "jawabanD" : "Sure, it’s so wonderful.",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k8_s2_p48_kl_n5.mp3"
   },
   {
     "kelas" : 9,
@@ -16252,7 +16251,7 @@
     "jawabanC" : "I’m proud of you.",
     "jawabanD" : "I’m sorry. I’ll try to get a new one for you",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p2610_kl_n5-8.wav"
+    "audio" : "k8_s2_p48_kl_n6.mp3"
   }
 ,    {
   "kelas" : 9,
@@ -16266,7 +16265,7 @@
   "jawabanC" : "Thank you. That’s very nice of you.",
   "jawabanD" : "It’s a plastic box.",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k8_s2_p48_kl_n7.mp3"
 }
 ,    {
   "kelas" : 9,
@@ -16280,7 +16279,7 @@
   "jawabanC" : "Teacher",
   "jawabanD" : "Chef",
   "jawabanBenar" : "C",
-  "audio" : "k9_s1_p2610_kl_n5-8.wav"
+  "audio" : "k8_s2_p48_kl_n8.mp3"
 },
   {
     "kelas" : 9,
@@ -16294,7 +16293,7 @@
     "jawabanC" : "kitchen stove",
     "jawabanD" : "weighter",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k8_s2_p48_kl_n9.mp3"
   },
   {
     "kelas" : 9,
@@ -16308,7 +16307,7 @@
     "jawabanC" : "Lord of the Rings",
     "jawabanD" : "The Last Samurai ",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p2610_kl_n9-10.wav"
+    "audio" : "k8_s2_p48_kl_n10.wav"
   },
   {
     "kelas" : 9,
@@ -16621,7 +16620,7 @@
     "jawabanC" : "Sunday",
     "jawabanD" : "Wednesday",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -16636,7 +16635,7 @@
     "jawabanC" : "Sunday",
     "jawabanD" : "Wednesday",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -16651,7 +16650,7 @@
     "jawabanC" : "Play pool",
     "jawabanD" : "Eat lunch",
     "jawabanBenar" : "A",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -16666,7 +16665,7 @@
     "jawabanC" : "In front of Tower Records",
     "jawabanD" : "In front of the subway entrance",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n1-4.wav"
+    "audio" : "k9_s2_p2610_kl_n1-4.wav"
 
   },
   {
@@ -16681,7 +16680,7 @@
     "jawabanC" : "Suspense and horror",
     "jawabanD" : "Western and horror",
     "jawabanBenar" : "B",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -16696,7 +16695,7 @@
     "jawabanC" : "Western",
     "jawabanD" : "Action",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -16711,7 +16710,7 @@
     "jawabanC" : "Stupid and childish",
     "jawabanD" : "Predictable and obvious",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -16725,8 +16724,8 @@
     "jawabanB" : "Funny",
     "jawabanC" : "Scary",
     "jawabanD" : "Suspenseful",
-    "jawabanBenar" : "",
-    "audio" : "k9_s1_p48_kl_n5-8.wav"
+    "jawabanBenar" : "A",
+    "audio" : "k9_s2_p2610_kl_n5-8.wav"
 
   },
   {
@@ -16741,7 +16740,7 @@
     "jawabanC" : "Last man standing",
     "jawabanD" : "Legally Blonde",
     "jawabanBenar" : "D",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
 
   },
   {
@@ -16756,7 +16755,7 @@
     "jawabanC" : "He needs to watch it with his girlfriend",
     "jawabanD" : "He doesn’t like horror movies",
     "jawabanBenar" : "C",
-    "audio" : "k9_s1_p48_kl_n9-10.wav"
+    "audio" : "k9_s2_p2610_kl_n9-10.wav"
 
   },
   {
