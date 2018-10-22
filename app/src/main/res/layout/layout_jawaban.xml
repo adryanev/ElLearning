@@ -6,6 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <RadioGroup
+        android:id="@+id/radioGroupPertanyaan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -19,8 +20,12 @@
             android:layout_height="wrap_content">
 
             <RadioButton
+                android:padding="8dp"
+                android:button="@null"
+                android:paddingStart="16dp"
+
                 android:id="@+id/jawabanA"
-                android:layout_width="wrap_content"
+                android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="44dp"
@@ -32,32 +37,49 @@
 
             <RadioButton
                 android:id="@+id/jawabanB"
-                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:button="@null"
+                android:paddingStart="16dp"
+
+                android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="32dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/jawabanA"
                 app:layout_constraintTop_toTopOf="@+id/jawabanA"
+                android:background="@drawable/background_radio_button"
+
                 tools:text="B. Jawaban" />
 
             <RadioButton
                 android:id="@+id/jawabanC"
-                android:layout_width="wrap_content"
+                android:padding="8dp"
+                android:button="@null"
+                android:paddingStart="16dp"
+                android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="@+id/jawabanA"
                 app:layout_constraintTop_toBottomOf="@+id/jawabanA"
-                tools:text="C. Jawaban C" />
+                tools:text="C. Jawaban C"
+                android:background="@drawable/background_radio_button"
+                />
 
             <RadioButton
                 android:id="@+id/jawabanD"
-                android:layout_width="wrap_content"
+                android:button="@null"
+                android:paddingStart="16dp"
+                android:padding="8dp"
+                android:checked="true"
+                android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="@+id/jawabanB"
                 app:layout_constraintTop_toBottomOf="@+id/jawabanB"
-                tools:text="D. Jawaban D" />
+                tools:text="D. Jawaban D"
+                android:background="@drawable/background_radio_button"
+                />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
