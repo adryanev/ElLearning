@@ -4,6 +4,6 @@ import java.util.concurrent.Executors
 
 private val IO_EXECUTOR = Executors.newSingleThreadExecutor()
 
-fun runOnUiThread(f: () -> Unit){
+fun runOnIoThread(f: () -> Unit){
     IO_EXECUTOR.execute(f)
 }

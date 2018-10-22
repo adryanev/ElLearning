@@ -17,9 +17,12 @@ class PertemuanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pertemuan)
+        val kelas : Int = intent.getIntExtra(KelasActivity.KELAS,0)
+        val semester : Int = intent.getIntExtra(KelasActivity.SEMESTER,0)
+
         prepareToolbar()
         recyclerPertemuan.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
-        recyclerPertemuan.adapter = PertemuanAdapter(pertemuanList,this)
+        recyclerPertemuan.adapter = PertemuanAdapter(kelas, semester, pertemuanList,this)
 
     }
 

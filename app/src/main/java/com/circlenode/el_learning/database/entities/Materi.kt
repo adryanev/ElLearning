@@ -7,10 +7,9 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "materi")
 data class Materi(
         @PrimaryKey(autoGenerate = true)
-        @ColumnInfo(name = "id_materi")
         var idMateri: Int,
         var kelas: Int,
         var semester: Int,
-        var kategori: String,
         var pertemuan: Int,
+        var kategori: String,
         var fileReference: String)

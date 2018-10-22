@@ -10,9 +10,9 @@ import com.circlenode.el_learning.database.entities.Materi
 interface MateriDao {
 
     @Query("SELECT * FROM materi WHERE kategori = :kategori and kelas = :kelas and semester = :semester and pertemuan = :pertemuan")
-    fun getMateri(kategori : String, kelas: Int, semester : String, pertemuan : String) : List<Materi>
+    fun getMateri(kelas: Int, semester : Int, pertemuan : Int,kategori : String) : List<Materi>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insertMateri(kelas: Int, semester: Int, pertemuan: String, kategori: String, fileReference: String)
+    fun insertMateri(materi: List<Materi>)
 
 }

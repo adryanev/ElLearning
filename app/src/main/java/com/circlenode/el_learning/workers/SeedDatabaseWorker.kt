@@ -1,30 +1,47 @@
 package com.circlenode.el_learning.workers
 
 import android.content.Context
+import com.google.gson.stream.JsonReader
 import android.util.Log
+import androidx.work.ListenableWorker
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import com.circlenode.el_learning.database.AppDatabase
+import com.circlenode.el_learning.database.entities.Materi
 import com.circlenode.el_learning.database.entities.Soal
+import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.lang.Exception
 
 class SeedDatabaseWorker(context: Context, workerParams: WorkerParameters) : Worker(context, workerParams){
     private val TAG by lazy { SeedDatabaseWorker::class.java.simpleName }
-    override fun doWork(): Worker.Result {
-        val plantType = object : TypeToken<List<Soal>>() {}.type
+    override fun doWork(): ListenableWorker.Result {
+        val soalType = object : TypeToken<List<Soal>>() {}.type
+        val materiType = object : TypeToken<List<Materi>>(){}.type
+        var jsonReader: JsonReader? = null
 
         return try {
             val database  = AppDatabase.getInstance(applicationContext)
-            //TODO: INSERT TO DATABASE
+            //get data from json file
+            val soalInputStream = applicationContext.assets.open("soal.json")
+            val materiInputStream = applicationContext.assets.open("materi.json")
+            //user json reader to read the json file
+            jsonReader = JsonReader(soalInputStream.reader())
+            Log.d("SeedDatabaseWorker",jsonReader.toString())
+            val soalList: List<Soal> = Gson().fromJson(jsonReader,soalType) //set all data from file to list
+            jsonReader = JsonReader(materiInputStream.reader())
+            val materiList: List<Materi> = Gson().fromJson(jsonReader,materiType)
 
-            Worker.Result.SUCCESS
+            database.getMateriDao().insertMateri(materiList) //access the dao to save it to database
+            database.getSoalDao().insertAllSoal(soalList)
+
+            ListenableWorker.Result.SUCCESS //return success
 
         }catch (ex : Exception){
             Log.e(TAG, "Error seeding database", ex)
-            Worker.Result.FAILURE
+            ListenableWorker.Result.FAILURE
         }finally {
-
+            jsonReader?.close()
         }
     }
 
