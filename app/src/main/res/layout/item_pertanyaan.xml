@@ -11,25 +11,30 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardPertanyaan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    >
+                    android:orientation="vertical">
+
                     <TextView
+                        android:id="@+id/textTeks"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:text="@tools:sample/lorem"
-                        android:id="@+id/textTeks"
-                        android:padding="16dp"/>
+                        android:padding="16dp"
+                        tools:text="@tools:sample/lorem" />
+
                     <TextView
 
                         android:id="@+id/textPertanyaan"
@@ -37,13 +42,14 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         tools:text="@tools:sample/lorem" />
+
                     <ImageButton
                         android:id="@+id/buttonSuara"
-                        android:padding="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@color/primaryColor"
-                        app:srcCompat="@drawable/ic_volume_up_black_24dp"/>
+                        android:padding="8dp"
+                        app:srcCompat="@drawable/ic_volume_up_black_24dp" />
                 </LinearLayout>
 
 
@@ -55,7 +61,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardPertanyaan" />
 

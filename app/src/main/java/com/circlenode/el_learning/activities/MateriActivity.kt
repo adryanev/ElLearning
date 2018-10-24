@@ -7,12 +7,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
+import android.widget.Toast
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.database.dao.MateriDao
 import com.circlenode.el_learning.database.entities.Materi
 import com.circlenode.el_learning.database.repository.MateriRepository
 import com.circlenode.el_learning.utils.runOnIoThread
 import kotlinx.android.synthetic.main.activity_materi.*
+import kotlin.system.exitProcess
 
 class MateriActivity : AppCompatActivity() {
 
@@ -27,15 +29,23 @@ class MateriActivity : AppCompatActivity() {
         val kategori : String? = intent.getStringExtra("kategori")
         materiRepository = MateriRepository(kelas,semester,pertemuan,kategori!!,application)
         val listMateri =  materiRepository.getMateri(kelas,semester,pertemuan,kategori)
-        Log.d("MateriActivity",listMateri[0].fileReference)
-        pdfView.fromStream(assets.open(listMateri[0].fileReference)).load()
-        btnLatihan.setOnClickListener {
-            val i = Intent(this@MateriActivity,LatihanActivity::class.java)
-            i.putExtra(KelasActivity.KELAS,kelas)
-            i.putExtra(KelasActivity.SEMESTER,semester)
-            i.putExtra("pertemuan",pertemuan)
-            i.putExtra("kategori",kategori)
-            startActivity(i)
+        Log.d("MateriActivity", listMateri.isEmpty().toString())
+        if(listMateri.isEmpty()){
+            Log.d("MateriActivity","Materi kosong")
+            Toast.makeText(this@MateriActivity,"Materi ini belum ditambahkan",Toast.LENGTH_LONG).show()
+            finish()
+        }else{
+            Log.d("MateriActivity",listMateri[0].fileReference)
+            pdfView.fromStream(assets.open(listMateri[0].fileReference)).load()
+            btnLatihan.setOnClickListener {
+                val i = Intent(this@MateriActivity,LatihanActivity::class.java)
+                i.putExtra(KelasActivity.KELAS,kelas)
+                i.putExtra(KelasActivity.SEMESTER,semester)
+                i.putExtra("pertemuan",pertemuan)
+                i.putExtra("kategori",kategori)
+                startActivity(i)
+
+            }
 
         }
 

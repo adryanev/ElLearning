@@ -8,7 +8,7 @@ import com.circlenode.el_learning.database.AppDatabase
 import com.circlenode.el_learning.database.dao.MateriDao
 import com.circlenode.el_learning.database.entities.Materi
 
-class MateriRepository {
+class MateriRepository{
 
     lateinit var materiDao : MateriDao
     var list: List<Materi>? = null

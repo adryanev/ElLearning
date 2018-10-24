@@ -1,6 +1,9 @@
 package com.circlenode.el_learning.adapters
 
 import android.content.Context
+import android.content.res.AssetFileDescriptor
+import android.content.res.AssetManager
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,13 +12,16 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import androidx.transition.Visibility
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.database.entities.Soal
+import com.circlenode.el_learning.utils.AudioPlay
 
 class LatihanAdapter(val listSoal: List<Soal>?, context: Context) : RecyclerView.Adapter<LatihanAdapter.LatihanViewHolder>(){
 
-
     val ctx = context
+    val assetManager : AssetManager = ctx.assets
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LatihanViewHolder {
         return LatihanViewHolder(LayoutInflater.from(ctx).inflate(R.layout.activity_latihan,parent,false))
     }
@@ -34,6 +40,32 @@ class LatihanAdapter(val listSoal: List<Soal>?, context: Context) : RecyclerView
         holder.jawabanB?.text = listSoal[position].jawabanB
         holder.jawabanC?.text = listSoal[position].jawabanC
         holder.jawabanD?.text = listSoal[position].jawabanD
+        if(listSoal[position].audio == null) {
+            holder.buttonSuara?.visibility = View.GONE
+
+        }else{
+            holder.buttonSuara?.setOnClickListener { _ ->
+                holder.buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
+                if(AudioPlay.isPlayingAudio){
+                    holder.buttonSuara.setImageResource(R.drawable.ic_volume_up_black_24dp)
+                    AudioPlay.stopAudio()
+                }
+                else{
+                    @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
+
+                    val assetFileDescriptor = assetManager.openFd(listSoal[position].audio)
+                    AudioPlay.playAudio(ctx, assetFileDescriptor)
+                    holder.buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
+                }
+                AudioPlay.mediaPlayer.setOnCompletionListener {
+                    holder.buttonSuara.setImageResource(R.drawable.ic_volume_up_black_24dp)
+                    it.stop()
+
+                }
+
+            }
+        }
+
 
 
     }

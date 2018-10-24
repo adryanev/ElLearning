@@ -21,9 +21,9 @@
 
             <RadioButton
                 android:padding="8dp"
-                android:button="@null"
+                
                 android:paddingStart="16dp"
-
+                android:button="@null"
                 android:id="@+id/jawabanA"
                 android:layout_width="144dp"
                 android:layout_height="wrap_content"
@@ -37,18 +37,18 @@
 
             <RadioButton
                 android:id="@+id/jawabanB"
-                android:padding="8dp"
-                android:button="@null"
-                android:paddingStart="16dp"
-
                 android:layout_width="144dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="32dp"
+
                 android:layout_marginEnd="32dp"
+                android:background="@drawable/background_radio_button"
+                android:button="@null"
+                android:padding="8dp"
+                android:paddingStart="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/jawabanA"
                 app:layout_constraintTop_toTopOf="@+id/jawabanA"
-                android:background="@drawable/background_radio_button"
 
                 tools:text="B. Jawaban" />
 
@@ -68,18 +68,17 @@
 
             <RadioButton
                 android:id="@+id/jawabanD"
-                android:button="@null"
-                android:paddingStart="16dp"
-                android:padding="8dp"
-                android:checked="true"
                 android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:background="@drawable/background_radio_button"
+                android:button="@null"
+                android:padding="8dp"
+                android:paddingStart="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/jawabanB"
                 app:layout_constraintStart_toStartOf="@+id/jawabanB"
                 app:layout_constraintTop_toBottomOf="@+id/jawabanB"
-                tools:text="D. Jawaban D"
-                android:background="@drawable/background_radio_button"
-                />
+                tools:text="D. Jawaban D" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
