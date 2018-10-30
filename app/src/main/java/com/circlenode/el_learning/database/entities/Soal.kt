@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "soal")
 data class Soal(
         @PrimaryKey(autoGenerate = true)
-        @ColumnInfo(name="id")
         var id :Int,
         var kelas:Int,
         var semester:Int,
