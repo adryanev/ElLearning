@@ -74,7 +74,6 @@ class LatihanAdapter(val listSoal: List<Soal>?, context: Context) : RecyclerView
     class LatihanViewHolder(val view : View) : RecyclerView.ViewHolder(view){
         val textTeks : TextView? = itemView.findViewById(R.id.textTeks)
         val textPertanyaan : TextView ? = itemView.findViewById<TextView>(R.id.textPertanyaan)
-        val radioGroup : RadioGroup? = itemView.findViewById<RadioGroup>(R.id.radioGroupPertanyaan)
         val buttonSuara : ImageButton ?= itemView.findViewById<ImageButton>(R.id.buttonSuara)
         val jawabanA: RadioButton? = itemView.findViewById<RadioButton>(R.id.jawabanA)
         val jawabanB : RadioButton? = itemView.findViewById<RadioButton>(R.id.jawabanB)
