@@ -11,36 +11,28 @@ import java.io.IOException
 class AudioPlay  {
 
     companion object {
-        lateinit var mediaPlayer : MediaPlayer
+         var mediaPlayer : MediaPlayer = MediaPlayer()
         var isPlayingAudio : Boolean = false
         var a : Boolean = false
 
 
         fun playAudio(context: Context, assetFileDescriptor: AssetFileDescriptor){
             mediaPlayer = MediaPlayer()
-            if(!mediaPlayer.isPlaying){
-                try{
-                    mediaPlayer.setDataSource(assetFileDescriptor.fileDescriptor,assetFileDescriptor.startOffset,assetFileDescriptor.length)
+            mediaPlayer.setDataSource(assetFileDescriptor.fileDescriptor,assetFileDescriptor.startOffset,assetFileDescriptor.length)
 
-                } catch (e : IOException){
-                    Toast.makeText(context, "Tidak dapat menemukan file audio.",Toast.LENGTH_LONG).show()
-                    e.printStackTrace()
-                }
-            }
-            if(!isPlayingAudio){
                 mediaPlayer.prepareAsync()
                 mediaPlayer.setOnPreparedListener {
-                    if(!it.isPlaying){
-                        isPlayingAudio = false
-                        it.start()
-                    }
-                    else{
-                        isPlayingAudio = true
-                        it.stop()
-                        it.release()
-                    }
+                   if(!it.isPlaying){
+                       it.start()
+                       isPlayingAudio = true
+                   }
+                   else{
+                       isPlayingAudio = false
+                       it.stop()
+                       it.release()
+                   }
                 }
-            }
+
         }
 
         fun playAudio(context: Context, path : String) : Unit{
@@ -83,11 +75,16 @@ class AudioPlay  {
         fun stopAudio(){
             isPlayingAudio = false
             mediaPlayer.stop()
+            mediaPlayer.reset()
             mediaPlayer.release()
         }
         fun pauseAudio(){
             isPlayingAudio = false
             mediaPlayer.pause()
+        }
+
+        fun isPlaying(): Boolean {
+            return isPlayingAudio
         }
     }
 }

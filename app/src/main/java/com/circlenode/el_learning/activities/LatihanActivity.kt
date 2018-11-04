@@ -21,7 +21,8 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var jawabanSiswa : ArrayList<String>
     lateinit var soalList : List<Soal>
     lateinit var soalSekarang : Soal
-    val assetManager : AssetManager = this@LatihanActivity.assets
+    lateinit var assetManager : AssetManager
+    lateinit var jawabanBenar : ArrayList<String>
 
     companion object {
         var nomorSekarang = 0;
@@ -38,13 +39,11 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
         val semester = intent.getIntExtra(KelasActivity.SEMESTER,0)
         val pertemuan = intent.getIntExtra("pertemuan",0)
         val kategori : String? = intent.getStringExtra("kategori")
-
+        assetManager = assets
+        jawabanSiswa = ArrayList()
+        jawabanBenar = ArrayList()
         initSoal(kelas,semester,pertemuan,kategori);
         initView(soalList);
-
-
-
-        Log.d("LatihanActivity",soalList[0].pertanyaan)
 
 
 
@@ -63,20 +62,26 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun getNextQuestion(){
         if(nomorSekarang < soalList.size){
+            Log.d("LatihanActivity","No sekarang sebelum diubah $nomorSekarang")
             nomorSekarang++;
+            Log.d("LatihanActivity","No sekarang sesudah diubah $nomorSekarang")
             soalSekarang = soalList.get(nomorSekarang-1)
+            Log.d("LatihanActivity",soalSekarang.toString())
+
             if(soalSekarang.teks == null){
                 textTeks.visibility = View.GONE
             }else{
                 textTeks.text = soalSekarang.teks
+                textTeks.visibility = View.VISIBLE
             }
             if(soalSekarang.audio == null){
                 buttonSuara.visibility = View.GONE
             }
             else{
+                buttonSuara.visibility = View.VISIBLE
                 buttonSuara.setOnClickListener { it ->
-                    buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
-                    if(AudioPlay.isPlayingAudio){
+                    if(AudioPlay.isPlaying()){
+                        Log.d("LatihanActivity","Audio sudah dimulai, mulai menutup audio")
                         buttonSuara.setImageResource(R.drawable.ic_volume_up_black_24dp)
                         AudioPlay.stopAudio()
                     }
@@ -90,11 +95,12 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
                     AudioPlay.mediaPlayer.setOnCompletionListener {
                         buttonSuara.setImageResource(R.drawable.ic_volume_up_black_24dp)
                         it.stop()
+                        it.reset()
 
                     }
                 }
             }
-            textPertanyaan.text = "${nomorSekarang+1}. ${soalSekarang.pertanyaan}"
+            textPertanyaan.text = "${nomorSekarang}. ${soalSekarang.pertanyaan}"
             jawabanA.text = "A. ${soalSekarang.jawabanA}"
             jawabanB.text = "B. ${soalSekarang.jawabanB}"
             jawabanC.text = "C. ${soalSekarang.jawabanC}"
@@ -108,6 +114,10 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
         }
         else{
             sendResult()
+            Log.d("LatihanActivity",jawabanBenar.toString())
+            Log.d("LatihanActivity",jawabanSiswa.toString())
+            Log.d("LatihanActivity","Skor Total: $skor")
+
             finish()
         }
     }
@@ -129,9 +139,22 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
             R.id.jawabanD -> answer = jawabanD.text.toString().split("\\.".toRegex())[0]
         }
 
-        jawabanSiswa.add(nomorSekarang-1,answer)
+        jawabanSiswa.add(answer.toUpperCase())
         if(answer.toUpperCase().equals(soalSekarang.jawabanBenar.toUpperCase())){
             skor += 100/soalList.size
+            Log.d("LatihanActivity","Skor sekarang adalah $skor")
         }
+        jawabanBenar.add(soalSekarang.jawabanBenar.toUpperCase())
+
+        Log.d("LatihanActivity","Jawaban siswa: $answer, Jawaban benar: ${soalSekarang.jawabanBenar}")
+        getNextQuestion()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        nomorSekarang = 0
+        skor = 0
+        AudioPlay.stopAudio()
+
     }
 }

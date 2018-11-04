@@ -1,5 +1,8 @@
 package com.circlenode.el_learning.activities
 
-class HasilActivity {
+import android.annotation.SuppressLint
+import androidx.appcompat.app.AppCompatActivity
+
+class HasilActivity :AppCompatActivity(){
 
 }

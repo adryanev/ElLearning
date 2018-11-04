@@ -14,7 +14,7 @@ interface SoalDao {
     @Insert
     fun insertSoal(soal : Soal)
 
-    @Query("SELECT * FROM soal where kelas = :kelas and semester = :semester and pertemuan = :pertemuan and kategori = :kategori LIMIT 10")
+    @Query("SELECT * FROM soal where kelas = :kelas and semester = :semester and pertemuan = :pertemuan and kategori = :kategori LIMIT 10 ")
     fun getSoal(kelas: Int, semester : Int, pertemuan : Int, kategori : String) : List<Soal>
 
     @Insert
