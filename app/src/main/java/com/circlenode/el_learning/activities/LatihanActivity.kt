@@ -125,6 +125,7 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
     private fun sendResult() {
         val intent : Intent = Intent(this@LatihanActivity,HasilActivity::class.java)
         intent.putStringArrayListExtra("jawaban",jawabanSiswa)
+        intent.putStringArrayListExtra("jawaban_benar",jawabanBenar)
         intent.putExtra("skor",skor)
         startActivity(intent)
 
