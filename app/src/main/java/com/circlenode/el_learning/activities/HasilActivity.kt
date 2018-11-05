@@ -2,6 +2,7 @@ package com.circlenode.el_learning.activities
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.graphics.Color
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
@@ -63,6 +64,7 @@ class HasilActivity :AppCompatActivity(){
             textJawabanBenar.gravity = Gravity.CENTER_HORIZONTAL
             textJawabanBenar.text = jawabanBenar[nomor-1]
             textJawabanBenar.setPadding(16,16,16,16)
+            if(jawabanSiswa[nomor-1].equals(jawabanBenar[nomor-1])) tableRow.setBackgroundColor(0x3d5afe00)
             tableRow.addView(textNo,0)
             tableRow.addView(textJawabanSiswa,1)
             tableRow.addView(textJawabanBenar,2)

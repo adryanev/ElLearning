@@ -994,7 +994,7 @@
     "jawabanB" : "To cringe due to pain",
     "jawabanC" : "Walk that is unbalanced from injury or pain",
     "jawabanD" : "Walk that is faster than normal",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "C",
     "audio" : "k7_s1_p48_kl_n9-10.wav"
   },
   {
@@ -2154,7 +2154,7 @@
     "jawabanB" : "To cringe due to pain",
     "jawabanC" : "Walk that is unbalanced from injury or pain",
     "jawabanD" : "Walk that is faster than normal",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "C",
     "audio" : "k7_s1_p48_kl_n9-10.wav"
   },
   {
@@ -3315,7 +3315,7 @@
     "jawabanB" : "To cringe due to pain",
     "jawabanC" : "Walk that is unbalanced from injury or pain",
     "jawabanD" : "Walk that is faster than normal",
-    "jawabanBenar" : "",
+"jawabanBenar" : "C",
     "audio" : "k7_s2_p2610_kl_n9-10.wav"
   },
   {
@@ -4475,14 +4475,15 @@
     "jawabanB" : "To cringe due to pain",
     "jawabanC" : "Walk that is unbalanced from injury or pain",
     "jawabanD" : "Walk that is faster than normal",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "C",
+
     "audio" : "k7_s1_p48_kl_n9-10.wav"
   },
   {
     "kelas" : 7,
     "semester" : 2,
     "pertemuan" : 6,
-    "kategori" : "writing",
+    "kategori" : "listening",
     "teks" : null,
     "pertanyaan" : "Why was Sarah limping ?",
     "jawabanA" : "She was running late for class and was in a hurry",
@@ -5636,7 +5637,7 @@
     "jawabanB" : "To cringe due to pain",
     "jawabanC" : "Walk that is unbalanced from injury or pain",
     "jawabanD" : "Walk that is faster than normal",
-    "jawabanBenar" : "",
+"jawabanBenar" : "C",
     "audio" : "k7_s2_p2610_kl_n9-10.wav"
   },
   {
@@ -12127,7 +12128,7 @@
       "jawabanB" : "Expressing pride ",
       "jawabanC" : "Expressing satisfaction",
       "jawabanD" : "Showing happiness.",
-      "jawabanBenar" : "",
+  "jawabanBenar" : "B",
       "audio" : "k9_s1_p2610_kl_n3.mp3"
     },
     {
@@ -12643,7 +12644,7 @@
     "jawabanB" : "Funny",
     "jawabanC" : "Scary",
     "jawabanD" : "Suspenseful",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "A",
     "audio" : "k9_s1_p48_kl_n5-8.wav"
 
   },
@@ -13148,7 +13149,7 @@
     "jawabanB" : "Expressing pride ",
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "B",
     "audio" : "k9_s1_p2610_kl_n3.mp3"
   },
   {
@@ -13664,7 +13665,7 @@
     "jawabanB" : "Funny",
     "jawabanC" : "Scary",
     "jawabanD" : "Suspenseful",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "A",
     "audio" : "k9_s1_p48_kl_n5-8.wav"
 
   },
@@ -14168,7 +14169,7 @@
     "jawabanB" : "Expressing pride ",
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "B",
     "audio" : "k9_s1_p2610_kl_n3.mp3"
   },
   {
@@ -15189,7 +15190,7 @@
     "jawabanB" : "Expressing pride ",
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "B",
     "audio" : "k9_s2_p48_kl_n3.mp3"
   },
   {
@@ -16208,7 +16209,7 @@
     "jawabanB" : "Expressing pride ",
     "jawabanC" : "Expressing satisfaction",
     "jawabanD" : "Showing happiness.",
-    "jawabanBenar" : "",
+    "jawabanBenar" : "B",
     "audio" : "k8_s2_p48_kl_n3.mp3"
   },
   {

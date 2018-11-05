@@ -61,6 +61,10 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun getNextQuestion(){
+        if(AudioPlay.isPlaying()) {
+            AudioPlay.stopAudio()
+            buttonSuara.setImageResource(R.drawable.ic_volume_up_black_24dp)
+        }
         if(nomorSekarang < soalList.size){
             Log.d("LatihanActivity","No sekarang sebelum diubah $nomorSekarang")
             nomorSekarang++;
@@ -155,7 +159,7 @@ class LatihanActivity : AppCompatActivity(), View.OnClickListener {
         super.onDestroy()
         nomorSekarang = 0
         skor = 0
-        AudioPlay.stopAudio()
 
+        if(AudioPlay.isPlaying()) AudioPlay.stopAudio()
     }
 }
