@@ -7,16 +7,18 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.database.repository.SoalRepository
-import kotlinx.android.synthetic.main.item_pertanyaan.*
-import kotlinx.android.synthetic.main.layout_jawaban.*
+import com.circlenode.el_learning.databinding.ActivityLatihanBinding
 
 class LatihanActivity : AppCompatActivity() {
 
     lateinit var soalRepository: SoalRepository
+    private lateinit var binding: ActivityLatihanBinding
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_latihan)
+        binding = ActivityLatihanBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         val kelas = intent.getIntExtra(KelasActivity.KELAS,0)
         val semester = intent.getIntExtra(KelasActivity.SEMESTER,0)
@@ -26,23 +28,23 @@ class LatihanActivity : AppCompatActivity() {
         val soalList = soalRepository.getSoal(kelas,semester,pertemuan,kategori)
         Log.d("LatihanActivity",soalList[0].pertanyaan)
         if(soalList[0].teks == null){
-            textTeks.visibility = View.GONE
+            binding.latihanPertanyaan.textTeks.visibility = View.GONE
         }else{
-            textTeks.text = soalList[0].teks
+            binding.latihanPertanyaan.textTeks.text = soalList[0].teks
         }
         if(soalList[0].audio == null){
-            buttonSuara.visibility = View.GONE
+            binding.latihanPertanyaan.buttonSuara.visibility = View.GONE
         }
         else{
-            buttonSuara.setOnClickListener {
-                buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
+          binding.latihanPertanyaan.buttonSuara.setOnClickListener {
+              binding.latihanPertanyaan. buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
             }
         }
-        textPertanyaan.text = "1. ${soalList[0].pertanyaan}"
-        jawabanA.text = "A. ${soalList[0].jawabanA}"
-        jawabanB.text = "B. ${soalList[0].jawabanB}"
-        jawabanC.text = "C. ${soalList[0].jawabanC}"
-        jawabanD.text = "D. ${soalList[0].jawabanD}"
+        binding.latihanPertanyaan.textPertanyaan.text = "1. ${soalList[0].pertanyaan}"
+        binding.latihanPertanyaan.itemJawaban.jawabanA.text = "A. ${soalList[0].jawabanA}"
+        binding.latihanPertanyaan.itemJawaban.jawabanB.text = "B. ${soalList[0].jawabanB}"
+        binding.latihanPertanyaan.itemJawaban.jawabanC.text = "C. ${soalList[0].jawabanC}"
+        binding.latihanPertanyaan.itemJawaban.jawabanD.text = "D. ${soalList[0].jawabanD}"
 
 
 

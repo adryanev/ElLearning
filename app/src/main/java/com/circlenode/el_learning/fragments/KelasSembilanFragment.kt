@@ -9,13 +9,17 @@ import androidx.fragment.app.Fragment
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.activities.KelasActivity
 import com.circlenode.el_learning.activities.PertemuanActivity
-import kotlinx.android.synthetic.main.fragment_kelas_sembilan.*
+import com.circlenode.el_learning.databinding.FragmentKelasSembilanBinding
 
 class KelasSembilanFragment : Fragment(){
+    private var _binding: FragmentKelasSembilanBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         super.onCreateView(inflater, container, savedInstanceState)
-        val view = inflater.inflate(R.layout.fragment_kelas_sembilan,container,false)
+
+        _binding = FragmentKelasSembilanBinding.inflate(inflater, container, false)
+        val view: View? = binding.root
 
         return view
     }
@@ -25,12 +29,12 @@ class KelasSembilanFragment : Fragment(){
         val intent: Intent = Intent(activity, PertemuanActivity::class.java)
 
 
-        sembilan_satu.setOnClickListener({
+        binding.sembilanSatu.setOnClickListener({
             intent.putExtra(KelasActivity.SEMESTER, KelasActivity.SEMESTER_SATU)
             intent.putExtra(KelasActivity.KELAS, KelasActivity.KELAS_SEMBILAN)
             startActivity(intent)
         })
-        sembilan_dua.setOnClickListener({
+        binding.sembilanDua.setOnClickListener({
             intent.putExtra(KelasActivity.KELAS,KelasActivity.KELAS_SEMBILAN)
             intent.putExtra(KelasActivity.SEMESTER, KelasActivity.SEMESTER_DUA)
             startActivity(intent)

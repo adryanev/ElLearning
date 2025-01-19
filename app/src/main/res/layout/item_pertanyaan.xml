@@ -56,6 +56,7 @@
             </com.google.android.material.card.MaterialCardView>
 
             <include
+                android:id="@+id/item_jawaban"
                 layout="@layout/layout_jawaban"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

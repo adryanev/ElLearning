@@ -12,16 +12,18 @@ import com.circlenode.el_learning.R
 import com.circlenode.el_learning.database.dao.MateriDao
 import com.circlenode.el_learning.database.entities.Materi
 import com.circlenode.el_learning.database.repository.MateriRepository
+import com.circlenode.el_learning.databinding.ActivityMateriBinding
 import com.circlenode.el_learning.utils.runOnIoThread
-import kotlinx.android.synthetic.main.activity_materi.*
 import kotlin.system.exitProcess
 
 class MateriActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityMateriBinding
     lateinit var materiRepository : MateriRepository
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_materi)
+        binding = ActivityMateriBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         val kelas = intent.getIntExtra(KelasActivity.KELAS,0)
         val semester = intent.getIntExtra(KelasActivity.SEMESTER,0)
@@ -36,8 +38,8 @@ class MateriActivity : AppCompatActivity() {
             finish()
         }else{
             Log.d("MateriActivity",listMateri[0].fileReference)
-            pdfView.fromStream(assets.open(listMateri[0].fileReference)).load()
-            btnLatihan.setOnClickListener {
+            binding.pdfView.fromStream(assets.open(listMateri[0].fileReference)).load()
+            binding.btnLatihan.setOnClickListener {
                 val i = Intent(this@MateriActivity,LatihanActivity::class.java)
                 i.putExtra(KelasActivity.KELAS,kelas)
                 i.putExtra(KelasActivity.SEMESTER,semester)

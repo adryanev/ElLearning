@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title="@string/app_name"
-            app:titleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">>
+            app:titleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
         </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>

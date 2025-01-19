@@ -37,18 +37,15 @@
         >
 
         <com.google.android.material.tabs.TabItem
-        android:id="@+id/tab_kelas_7"
         style="@style/tabItem"
         android:text="@string/kelas_7"
         />
 
         <com.google.android.material.tabs.TabItem
-        android:id="@+id/tab_kelas_8"
         style="@style/tabItem"
         android:text="@string/kelas_8" />
 
         <com.google.android.material.tabs.TabItem
-        android:id="@+id/tab_kelas_9"
         style="@style/tabItem"
         android:text="@string/kelas_9" />
 

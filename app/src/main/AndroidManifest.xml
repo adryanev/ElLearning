@@ -26,7 +26,7 @@
             android:parentActivityName=".activities.MateriActivity"/>
         <activity android:name=".activities.KategoriActivity"
             android:parentActivityName=".activities.PertemuanActivity"/>
-        <activity android:name=".activities.SplashActivity" >
+        <activity android:name=".activities.SplashActivity" android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

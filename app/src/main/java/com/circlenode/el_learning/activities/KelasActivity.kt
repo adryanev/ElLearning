@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.adapters.KelasPagerAdapter
-import kotlinx.android.synthetic.main.activity_kelas.*
+import com.circlenode.el_learning.databinding.ActivityKelasBinding
 
 class KelasActivity : AppCompatActivity() {
 
@@ -18,15 +18,19 @@ class KelasActivity : AppCompatActivity() {
         const val KELAS_DELAPAN : Int = 8
         const val KELAS_SEMBILAN : Int = 9
     }
+
+    private lateinit var binding: ActivityKelasBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kelas)
-        setSupportActionBar(toolbar_kelas)
+        binding = ActivityKelasBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+        setSupportActionBar(binding.toolbarKelas)
         val actionBar = supportActionBar
         actionBar!!.setDisplayShowHomeEnabled(true)
         actionBar.setDisplayHomeAsUpEnabled(true)
-        kelasViewPager.adapter = KelasPagerAdapter(supportFragmentManager)
-        tab_kelas.setupWithViewPager(kelasViewPager)
+        binding.kelasViewPager.adapter = KelasPagerAdapter(supportFragmentManager)
+        binding.tabKelas.setupWithViewPager(binding.kelasViewPager)
 
 
     }

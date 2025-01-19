@@ -12,12 +12,17 @@ import androidx.appcompat.app.AppCompatActivity
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.database.AppDatabase
 import com.circlenode.el_learning.database.repository.MateriRepository
+import com.circlenode.el_learning.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivitySplashBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
         val materi : MateriRepository = MateriRepository(0,0,0,"",application)
         val s =  materi.getMateri(0,0,0,"")
         DbAsync(application).execute()

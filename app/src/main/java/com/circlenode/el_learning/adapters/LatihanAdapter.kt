@@ -35,12 +35,12 @@ class LatihanAdapter(val listSoal: List<Soal>?, context: Context) : RecyclerView
 
     override fun onBindViewHolder(holder: LatihanViewHolder, position: Int) {
         holder.textTeks?.text = listSoal!![position].teks
-        holder.textPertanyaan?.text = listSoal[position].pertanyaan
-        holder.jawabanA?.text =  listSoal[position].jawabanA
-        holder.jawabanB?.text = listSoal[position].jawabanB
-        holder.jawabanC?.text = listSoal[position].jawabanC
-        holder.jawabanD?.text = listSoal[position].jawabanD
-        if(listSoal[position].audio == null) {
+        holder.textPertanyaan?.text = listSoal!![position].pertanyaan
+        holder.jawabanA?.text =  listSoal!![position].jawabanA
+        holder.jawabanB?.text = listSoal!![position].jawabanB
+        holder.jawabanC?.text = listSoal!![position].jawabanC
+        holder.jawabanD?.text = listSoal!![position].jawabanD
+        if(listSoal!![position].audio == null) {
             holder.buttonSuara?.visibility = View.GONE
 
         }else{
@@ -53,7 +53,7 @@ class LatihanAdapter(val listSoal: List<Soal>?, context: Context) : RecyclerView
                 else{
                     @Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 
-                    val assetFileDescriptor = assetManager.openFd(listSoal[position].audio)
+                    val assetFileDescriptor = assetManager.openFd(listSoal[position].audio!!)
                     AudioPlay.playAudio(ctx, assetFileDescriptor)
                     holder.buttonSuara.setImageResource(R.drawable.ic_pause_black_24dp)
                 }

@@ -4,15 +4,17 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.circlenode.el_learning.R
-import kotlinx.android.synthetic.main.activity_kategori.*
+import com.circlenode.el_learning.databinding.ActivityKategoriBinding
 
 
 class KategoriActivity : AppCompatActivity() {
-
+    private lateinit var binding: ActivityKategoriBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_kategori)
-        setSupportActionBar(toolbar_kategori)
+        binding = ActivityKategoriBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+        setSupportActionBar(binding.toolbarKategori)
         val actionBar = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
         actionBar.setDisplayHomeAsUpEnabled(true)
@@ -21,16 +23,16 @@ class KategoriActivity : AppCompatActivity() {
         val pertemuan: Int = intent.getIntExtra("pertemuan", 0)
 
         if(pertemuan %2 != 0){
-            kategori1.text = "reading"
-            kategori2.text = "speaking"
+            binding.kategori1.text = "reading"
+            binding.kategori2.text = "speaking"
         }else{
-            kategori1.text = "listening"
-            kategori2.text = "writing"
+            binding.kategori1.text = "listening"
+            binding.kategori2.text = "writing"
         }
 
 
-        kategori1.setOnClickListener {
-            val kategori : String = kategori1.text.toString()
+        binding.kategori1.setOnClickListener {
+            val kategori : String = binding.kategori1.text.toString()
             val intent : Intent = Intent(this@KategoriActivity, MateriActivity::class.java)
             intent.putExtra(KelasActivity.KELAS,kelas)
             intent.putExtra(KelasActivity.SEMESTER,semester)
@@ -39,8 +41,8 @@ class KategoriActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        kategori2.setOnClickListener {
-            val kategori : String = kategori2.text.toString()
+        binding.kategori2.setOnClickListener {
+            val kategori : String = binding.kategori2.text.toString()
             val intent : Intent = Intent(this@KategoriActivity, MateriActivity::class.java)
             intent.putExtra(KelasActivity.KELAS,kelas)
             intent.putExtra(KelasActivity.SEMESTER,semester)

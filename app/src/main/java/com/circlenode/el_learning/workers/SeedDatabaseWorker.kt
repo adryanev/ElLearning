@@ -35,11 +35,11 @@ class SeedDatabaseWorker(context: Context, workerParams: WorkerParameters) : Wor
             database.getMateriDao().insertMateri(materiList) //access the dao to save it to database
             database.getSoalDao().insertAllSoal(soalList)
 
-            ListenableWorker.Result.SUCCESS //return success
+            ListenableWorker.Result.success() //return success
 
         }catch (ex : Exception){
             Log.e(TAG, "Error seeding database", ex)
-            ListenableWorker.Result.FAILURE
+            ListenableWorker.Result.failure()
         }finally {
             jsonReader?.close()
         }

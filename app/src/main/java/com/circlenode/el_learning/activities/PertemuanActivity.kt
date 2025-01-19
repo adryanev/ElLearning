@@ -8,26 +8,29 @@ import androidx.recyclerview.widget.RecyclerView
 import com.circlenode.el_learning.R
 import com.circlenode.el_learning.adapters.PertemuanAdapter
 import com.circlenode.el_learning.database.entities.Pertemuan
-import kotlinx.android.synthetic.main.activity_pertemuan.*
+import com.circlenode.el_learning.databinding.ActivityPertemuanBinding
 
 class PertemuanActivity : AppCompatActivity() {
 
     val pertemuanList = Pertemuan.listPertemuan
+    private lateinit var binding: ActivityPertemuanBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pertemuan)
+        binding = ActivityPertemuanBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
         val kelas : Int = intent.getIntExtra(KelasActivity.KELAS,0)
         val semester : Int = intent.getIntExtra(KelasActivity.SEMESTER,0)
 
         prepareToolbar()
-        recyclerPertemuan.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
-        recyclerPertemuan.adapter = PertemuanAdapter(kelas, semester, pertemuanList,this)
+        binding.recyclerPertemuan.layoutManager = LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+        binding.recyclerPertemuan.adapter = PertemuanAdapter(kelas, semester, pertemuanList,this)
 
     }
 
     fun prepareToolbar(){
-        setSupportActionBar(toolbar_pertemuan)
+        setSupportActionBar(binding.toolbarPertemuan)
         val actionBar = supportActionBar
         actionBar!!.setDisplayHomeAsUpEnabled(true)
         actionBar.setDisplayHomeAsUpEnabled(true)

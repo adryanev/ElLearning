@@ -3,6 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include layout="@layout/item_pertanyaan"></include>
+    <include android:id="@+id/latihan_pertanyaan" layout="@layout/item_pertanyaan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
